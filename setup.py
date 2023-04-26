@@ -48,7 +48,7 @@ setup(
             "flake8-bugbear",  # flake8 doesn't have a dependency for bugbear plugin
             "flake8>=3.7,<5",
             "isort>=4.3,<5.2.0",
-            "mypy>=0.770,<0.800",
+            "mypy>=0.770,<1.0.0",
         ],
     },
     package_data={"pysen": ["py.typed"]},
